@@ -1,0 +1,3 @@
+[submodule "lib/NarenT.HTTP"]
+	path = lib/NarenT.HTTP
+	url = git@github.com:narent/NarenT.HTTP.git

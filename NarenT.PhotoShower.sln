@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NarenT.PhotoShower", "NarenT.PhotoShower\NarenT.PhotoShower.csproj", "{65F428A3-1D61-497B-A2A0-BFBA6818897A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NarenT.HTTP", "lib\NarenT.HTTP\NarenT.HTTP\NarenT.HTTP.csproj", "{4D282E08-E6E6-4C50-8C30-617A92629209}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -13,6 +15,18 @@ Global
 		AppStore|iPhone = AppStore|iPhone
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D282E08-E6E6-4C50-8C30-617A92629209}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{4D282E08-E6E6-4C50-8C30-617A92629209}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{4D282E08-E6E6-4C50-8C30-617A92629209}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{4D282E08-E6E6-4C50-8C30-617A92629209}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{4D282E08-E6E6-4C50-8C30-617A92629209}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{4D282E08-E6E6-4C50-8C30-617A92629209}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{4D282E08-E6E6-4C50-8C30-617A92629209}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{4D282E08-E6E6-4C50-8C30-617A92629209}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{4D282E08-E6E6-4C50-8C30-617A92629209}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{4D282E08-E6E6-4C50-8C30-617A92629209}.Release|iPhone.Build.0 = Release|Any CPU
+		{4D282E08-E6E6-4C50-8C30-617A92629209}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{4D282E08-E6E6-4C50-8C30-617A92629209}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{65F428A3-1D61-497B-A2A0-BFBA6818897A}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
 		{65F428A3-1D61-497B-A2A0-BFBA6818897A}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
 		{65F428A3-1D61-497B-A2A0-BFBA6818897A}.AppStore|iPhone.ActiveCfg = AppStore|iPhone

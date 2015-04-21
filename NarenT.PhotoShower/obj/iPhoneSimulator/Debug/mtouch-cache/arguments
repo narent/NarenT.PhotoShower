@@ -1,0 +1,35 @@
+# Version: 8.9.1.3 (f7736a4)
+# [first argument, ignore] # /Users/narendratumkur/Projects/NarenT.PhotoShower/NarenT.PhotoShower/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/8.9.1.3/bin/mtouch-64 \
+	--cache \
+	/Users/narendratumkur/Projects/NarenT.PhotoShower/NarenT.PhotoShower/obj/iPhoneSimulator/Debug/mtouch-cache \
+	--sim \
+	/Users/narendratumkur/Projects/NarenT.PhotoShower/NarenT.PhotoShower/bin/iPhoneSimulator/Debug/NarenT.PhotoShower.app \
+	--executable \
+	NarenT.PhotoShower \
+	--debug \
+	--nolink \
+	--sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--sdk \
+	8.3 \
+	--targetver \
+	8.0 \
+	--abi=i386 \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
+	-r \
+	/Users/narendratumkur/Projects/NarenT.PhotoShower/lib/NarenT.HTTP/NarenT.HTTP/bin/Debug//NarenT.HTTP.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	-r \
+	/Users/narendratumkur/Projects/NarenT.PhotoShower/lib/NarenT.HTTP/NarenT.HTTP/bin/Debug//NarenT.HTTP.dll \
+	-r \
+	/Users/narendratumkur/Projects/NarenT.PhotoShower/lib/NarenT.HTTP/NarenT.HTTP/bin/Debug/Newtonsoft.Json.dll \
+	/Users/narendratumkur/Projects/NarenT.PhotoShower/NarenT.PhotoShower/bin/iPhoneSimulator/Debug//NarenT.PhotoShower.exe \

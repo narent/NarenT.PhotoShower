@@ -1,0 +1,12 @@
+/Users/narendratumkur/Projects/NarenT.PhotoShower/NarenT.PhotoShower/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/narendratumkur/Projects/NarenT.PhotoShower/NarenT.PhotoShower/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.nib
+/Users/narendratumkur/Projects/NarenT.PhotoShower/NarenT.PhotoShower/obj/iPhoneSimulator/Debug/actool/partial-info.plist
+/Users/narendratumkur/Projects/NarenT.PhotoShower/NarenT.PhotoShower/obj/iPhoneSimulator/Debug/actool/asset-manifest.plist
+/Users/narendratumkur/Projects/NarenT.PhotoShower/NarenT.PhotoShower/obj/iPhoneSimulator/Debug/
+/Users/narendratumkur/Projects/NarenT.PhotoShower/NarenT.PhotoShower/bin/iPhoneSimulator/Debug/NarenT.HTTP.dll
+/Users/narendratumkur/Projects/NarenT.PhotoShower/NarenT.PhotoShower/bin/iPhoneSimulator/Debug/NarenT.HTTP.dll.mdb
+/Users/narendratumkur/Projects/NarenT.PhotoShower/NarenT.PhotoShower/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/narendratumkur/Projects/NarenT.PhotoShower/NarenT.PhotoShower/bin/iPhoneSimulator/Debug/NarenT.PhotoShower.exe.mdb
+/Users/narendratumkur/Projects/NarenT.PhotoShower/NarenT.PhotoShower/bin/iPhoneSimulator/Debug/NarenT.PhotoShower.exe
+/Users/narendratumkur/Projects/NarenT.PhotoShower/NarenT.PhotoShower/obj/iPhoneSimulator/Debug/NarenT.PhotoShower.exe
+/Users/narendratumkur/Projects/NarenT.PhotoShower/NarenT.PhotoShower/obj/iPhoneSimulator/Debug/NarenT.PhotoShower.exe.mdb

@@ -99,10 +99,40 @@
   <ItemGroup>
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
+    <None Include="Views\PhotoGroupsView.cshtml">
+      <Generator>RazorTemplatePreprocessor</Generator>
+      <LastGenOutput>PhotoGroupsView.cs</LastGenOutput>
+    </None>
+    <None Include="Views\PhotoView.cshtml">
+      <Generator>RazorTemplatePreprocessor</Generator>
+      <LastGenOutput>PhotoView.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+    <Compile Include="PhotosGroupsAction.cs" />
+    <Compile Include="Views\PhotoGroupsView.cs">
+      <DependentUpon>PhotoGroupsView.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PhotoGroup.cs" />
+    <Compile Include="ALAssetsHelper.cs" />
+    <Compile Include="Views\PhotoView.cs">
+      <DependentUpon>PhotoView.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PhotoDescription.cs" />
+    <Compile Include="Models\Photo.cs" />
+    <Compile Include="PhotoAction.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\lib\NarenT.HTTP\NarenT.HTTP\NarenT.HTTP.csproj">
+      <Project>{4D282E08-E6E6-4C50-8C30-617A92629209}</Project>
+      <Name>NarenT.HTTP</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
 </Project>

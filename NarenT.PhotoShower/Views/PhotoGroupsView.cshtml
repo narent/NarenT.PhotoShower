@@ -1,0 +1,21 @@
+﻿@using NarenT.PhotoShower.Models
+@model List<PhotoGroup>
+<html>
+<head>
+	<style>
+		.image-thumbnail {
+			padding: 20ppx 0px 0px 20px;
+		}
+	</style>
+</head>
+<body>
+
+@foreach (var pg in @Model) {
+	<h2>@pg.Name</h2>
+	foreach (var p in pg.Photos) {
+		<span class="image-thumbnail"><a href="/photo?size=f&url=@p.Url"><img src="/photo?url=@p.Url"/></a></span>
+	}
+}
+
+</body>
+</html>
